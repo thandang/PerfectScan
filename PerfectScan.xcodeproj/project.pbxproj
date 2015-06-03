@@ -14,6 +14,10 @@
 		368FED3F1B1F66D500E5316E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368FED3E1B1F66D500E5316E /* Images.xcassets */; };
 		368FED421B1F66D500E5316E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368FED401B1F66D500E5316E /* LaunchScreen.xib */; };
 		368FED4E1B1F66D500E5316E /* PerfectScanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED4D1B1F66D500E5316E /* PerfectScanTests.m */; };
+		368FED5E1B1F673F00E5316E /* PSCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED5D1B1F673F00E5316E /* PSCommonViewController.m */; };
+		368FED611B1F676400E5316E /* PSMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED601B1F676400E5316E /* PSMainViewController.m */; };
+		368FED641B1F677100E5316E /* PSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED631B1F677100E5316E /* PSUtils.m */; };
+		368FED671B1F678000E5316E /* PSScan.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED661B1F678000E5316E /* PSScan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		368FED471B1F66D500E5316E /* PerfectScanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfectScanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		368FED4C1B1F66D500E5316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		368FED4D1B1F66D500E5316E /* PerfectScanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PerfectScanTests.m; sourceTree = "<group>"; };
+		368FED5C1B1F673F00E5316E /* PSCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSCommonViewController.h; path = Components/PSCommonViewController.h; sourceTree = "<group>"; };
+		368FED5D1B1F673F00E5316E /* PSCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSCommonViewController.m; path = Components/PSCommonViewController.m; sourceTree = "<group>"; };
+		368FED5F1B1F676400E5316E /* PSMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSMainViewController.h; sourceTree = "<group>"; };
+		368FED601B1F676400E5316E /* PSMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSMainViewController.m; sourceTree = "<group>"; };
+		368FED621B1F677100E5316E /* PSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSUtils.h; sourceTree = "<group>"; };
+		368FED631B1F677100E5316E /* PSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSUtils.m; sourceTree = "<group>"; };
+		368FED651B1F678000E5316E /* PSScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSScan.h; path = Models/PSScan.h; sourceTree = "<group>"; };
+		368FED661B1F678000E5316E /* PSScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSScan.m; path = Models/PSScan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,11 @@
 		368FED301B1F66D500E5316E /* PerfectScan */ = {
 			isa = PBXGroup;
 			children = (
+				368FED5B1B1F671200E5316E /* Libraries */,
+				368FED5A1B1F670900E5316E /* Components */,
+				368FED591B1F66FE00E5316E /* Utils */,
+				368FED581B1F66F800E5316E /* Models */,
+				368FED571B1F66F100E5316E /* ViewControllers */,
 				368FED351B1F66D500E5316E /* AppDelegate.h */,
 				368FED361B1F66D500E5316E /* AppDelegate.m */,
 				368FED381B1F66D500E5316E /* ViewController.h */,
@@ -117,6 +134,49 @@
 				368FED4C1B1F66D500E5316E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368FED571B1F66F100E5316E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				368FED5F1B1F676400E5316E /* PSMainViewController.h */,
+				368FED601B1F676400E5316E /* PSMainViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		368FED581B1F66F800E5316E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				368FED651B1F678000E5316E /* PSScan.h */,
+				368FED661B1F678000E5316E /* PSScan.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		368FED591B1F66FE00E5316E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				368FED621B1F677100E5316E /* PSUtils.h */,
+				368FED631B1F677100E5316E /* PSUtils.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		368FED5A1B1F670900E5316E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				368FED5C1B1F673F00E5316E /* PSCommonViewController.h */,
+				368FED5D1B1F673F00E5316E /* PSCommonViewController.m */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		368FED5B1B1F671200E5316E /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +223,7 @@
 		368FED261B1F66D500E5316E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PS;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Than Dang";
 				TargetAttributes = {
@@ -221,7 +282,11 @@
 			files = (
 				368FED3A1B1F66D500E5316E /* ViewController.m in Sources */,
 				368FED371B1F66D500E5316E /* AppDelegate.m in Sources */,
+				368FED5E1B1F673F00E5316E /* PSCommonViewController.m in Sources */,
+				368FED671B1F678000E5316E /* PSScan.m in Sources */,
 				368FED341B1F66D500E5316E /* main.m in Sources */,
+				368FED641B1F677100E5316E /* PSUtils.m in Sources */,
+				368FED611B1F676400E5316E /* PSMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +415,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PerfectScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +426,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PerfectScan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
