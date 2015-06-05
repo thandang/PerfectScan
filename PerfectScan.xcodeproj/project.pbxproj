@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		363A6AB21B20B5A7000EFBE6 /* PSScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A6AB11B20B5A7000EFBE6 /* PSScanViewController.m */; };
+		363A6AB51B20B5C0000EFBE6 /* PSOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A6AB41B20B5C0000EFBE6 /* PSOverlayView.m */; };
+		363A6AB71B20B5DD000EFBE6 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6AB61B20B5DD000EFBE6 /* AVFoundation.framework */; };
+		363A6AB91B20B5E3000EFBE6 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6AB81B20B5E3000EFBE6 /* ImageIO.framework */; };
+		363A6ABB1B20B5E9000EFBE6 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6ABA1B20B5E9000EFBE6 /* CoreFoundation.framework */; };
+		363A6ABD1B20B5EE000EFBE6 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6ABC1B20B5EE000EFBE6 /* iAd.framework */; };
+		363A6ABF1B20B5F3000EFBE6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6ABE1B20B5F3000EFBE6 /* QuartzCore.framework */; };
+		363A6AC11B20B5F8000EFBE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6AC01B20B5F8000EFBE6 /* CoreGraphics.framework */; };
+		363A6AC31B20B611000EFBE6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 363A6AC21B20B611000EFBE6 /* AudioToolbox.framework */; };
+		363A6AC91B212E2A000EFBE6 /* BFPaperButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 363A6AC81B212E2A000EFBE6 /* BFPaperButton.m */; };
 		368FED341B1F66D500E5316E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED331B1F66D500E5316E /* main.m */; };
 		368FED371B1F66D500E5316E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED361B1F66D500E5316E /* AppDelegate.m */; };
 		368FED3A1B1F66D500E5316E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 368FED391B1F66D500E5316E /* ViewController.m */; };
@@ -31,6 +41,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		363A6AB01B20B5A7000EFBE6 /* PSScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSScanViewController.h; path = Components/PSScanViewController.h; sourceTree = "<group>"; };
+		363A6AB11B20B5A7000EFBE6 /* PSScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSScanViewController.m; path = Components/PSScanViewController.m; sourceTree = "<group>"; };
+		363A6AB31B20B5C0000EFBE6 /* PSOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PSOverlayView.h; path = Components/PSOverlayView.h; sourceTree = "<group>"; };
+		363A6AB41B20B5C0000EFBE6 /* PSOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PSOverlayView.m; path = Components/PSOverlayView.m; sourceTree = "<group>"; };
+		363A6AB61B20B5DD000EFBE6 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		363A6AB81B20B5E3000EFBE6 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		363A6ABA1B20B5E9000EFBE6 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		363A6ABC1B20B5EE000EFBE6 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		363A6ABE1B20B5F3000EFBE6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		363A6AC01B20B5F8000EFBE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		363A6AC21B20B611000EFBE6 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		363A6AC51B20B7CE000EFBE6 /* PerfectScan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PerfectScan-Prefix.pch"; sourceTree = "<group>"; };
+		363A6AC61B20B81D000EFBE6 /* PSConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PSConstants.h; path = Utils/PSConstants.h; sourceTree = "<group>"; };
+		363A6AC71B212E2A000EFBE6 /* BFPaperButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFPaperButton.h; sourceTree = "<group>"; };
+		363A6AC81B212E2A000EFBE6 /* BFPaperButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFPaperButton.m; sourceTree = "<group>"; };
 		368FED2E1B1F66D500E5316E /* PerfectScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfectScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		368FED321B1F66D500E5316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		368FED331B1F66D500E5316E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -59,6 +84,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363A6AC31B20B611000EFBE6 /* AudioToolbox.framework in Frameworks */,
+				363A6AC11B20B5F8000EFBE6 /* CoreGraphics.framework in Frameworks */,
+				363A6ABF1B20B5F3000EFBE6 /* QuartzCore.framework in Frameworks */,
+				363A6ABD1B20B5EE000EFBE6 /* iAd.framework in Frameworks */,
+				363A6ABB1B20B5E9000EFBE6 /* CoreFoundation.framework in Frameworks */,
+				363A6AB91B20B5E3000EFBE6 /* ImageIO.framework in Frameworks */,
+				363A6AB71B20B5DD000EFBE6 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,9 +104,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		363A6AC41B20B728000EFBE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363A6AC21B20B611000EFBE6 /* AudioToolbox.framework */,
+				363A6AC01B20B5F8000EFBE6 /* CoreGraphics.framework */,
+				363A6ABE1B20B5F3000EFBE6 /* QuartzCore.framework */,
+				363A6ABC1B20B5EE000EFBE6 /* iAd.framework */,
+				363A6ABA1B20B5E9000EFBE6 /* CoreFoundation.framework */,
+				363A6AB81B20B5E3000EFBE6 /* ImageIO.framework */,
+				363A6AB61B20B5DD000EFBE6 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		368FED251B1F66D500E5316E = {
 			isa = PBXGroup;
 			children = (
+				363A6AC41B20B728000EFBE6 /* Frameworks */,
 				368FED301B1F66D500E5316E /* PerfectScan */,
 				368FED4A1B1F66D500E5316E /* PerfectScanTests */,
 				368FED2F1B1F66D500E5316E /* Products */,
@@ -115,6 +162,7 @@
 			children = (
 				368FED321B1F66D500E5316E /* Info.plist */,
 				368FED331B1F66D500E5316E /* main.m */,
+				363A6AC51B20B7CE000EFBE6 /* PerfectScan-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,6 +207,7 @@
 			children = (
 				368FED621B1F677100E5316E /* PSUtils.h */,
 				368FED631B1F677100E5316E /* PSUtils.m */,
+				363A6AC61B20B81D000EFBE6 /* PSConstants.h */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -166,8 +215,14 @@
 		368FED5A1B1F670900E5316E /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				363A6AC71B212E2A000EFBE6 /* BFPaperButton.h */,
+				363A6AC81B212E2A000EFBE6 /* BFPaperButton.m */,
 				368FED5C1B1F673F00E5316E /* PSCommonViewController.h */,
 				368FED5D1B1F673F00E5316E /* PSCommonViewController.m */,
+				363A6AB01B20B5A7000EFBE6 /* PSScanViewController.h */,
+				363A6AB11B20B5A7000EFBE6 /* PSScanViewController.m */,
+				363A6AB31B20B5C0000EFBE6 /* PSOverlayView.h */,
+				363A6AB41B20B5C0000EFBE6 /* PSOverlayView.m */,
 			);
 			name = Components;
 			sourceTree = "<group>";
@@ -280,10 +335,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				363A6AB21B20B5A7000EFBE6 /* PSScanViewController.m in Sources */,
 				368FED3A1B1F66D500E5316E /* ViewController.m in Sources */,
+				363A6AC91B212E2A000EFBE6 /* BFPaperButton.m in Sources */,
 				368FED371B1F66D500E5316E /* AppDelegate.m in Sources */,
 				368FED5E1B1F673F00E5316E /* PSCommonViewController.m in Sources */,
 				368FED671B1F678000E5316E /* PSScan.m in Sources */,
+				363A6AB51B20B5C0000EFBE6 /* PSOverlayView.m in Sources */,
 				368FED341B1F66D500E5316E /* main.m in Sources */,
 				368FED641B1F677100E5316E /* PSUtils.m in Sources */,
 				368FED611B1F676400E5316E /* PSMainViewController.m in Sources */,
@@ -414,6 +472,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "PerfectScan/PerfectScan-Prefix.pch";
 				INFOPLIST_FILE = PerfectScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -425,6 +485,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "PerfectScan/PerfectScan-Prefix.pch";
 				INFOPLIST_FILE = PerfectScan/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -485,6 +547,7 @@
 				368FED531B1F66D500E5316E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		368FED541B1F66D500E5316E /* Build configuration list for PBXNativeTarget "PerfectScanTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +556,7 @@
 				368FED561B1F66D500E5316E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

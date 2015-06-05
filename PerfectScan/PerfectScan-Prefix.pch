@@ -1,0 +1,16 @@
+//
+//  PerfectScan-Prefix.pch
+//  PerfectScan
+//
+//  Created by Than Dang on 6/4/15.
+//  Copyright (c) 2015 Than Dang. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "PSUtils.h"
+    #import "PSConstants.h"
+#endif
