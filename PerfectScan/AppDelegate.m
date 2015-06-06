@@ -7,8 +7,12 @@
 //
 
 #import "AppDelegate.h"
+#import "BannerViewController.h"
+#import "PSMainViewController.h"
 
-@interface AppDelegate ()
+@interface AppDelegate () {
+    BannerViewController    *_bannerViewController;
+}
 
 @end
 
@@ -17,6 +21,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+//    NSData *ipsumData = [NSData dataWithContentsOfURL:[[NSBundle mainBundle] URLForResource:@"ipsums" withExtension:@"plist"] options:NSDataReadingMappedIfSafe error:nil];
+//    NSDictionary *ipsums = [NSPropertyListSerialization propertyListWithData:ipsumData options:NSPropertyListImmutable format:nil error:nil];
+    
+    PSMainViewController *mainViewController = [[PSMainViewController alloc] init];
+//    mainViewController.title = NSLocalizedString(@"Original", @"Original");
+//    mainViewController.text = ipsums[@"Original"];
+    
+    _bannerViewController = [[BannerViewController alloc] initWithContentViewController:mainViewController];
+    
+    self.window.rootViewController = _bannerViewController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
@@ -40,6 +59,10 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (NSUInteger) application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window {
+    return UIInterfaceOrientationMaskPortrait;
 }
 
 @end
